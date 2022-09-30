@@ -10,6 +10,10 @@
   display: flex;
   flex-direction: column;
 }
+.cus1 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 2);
+}
 @media (min-width: 1300px) {
   .custom {
     flex-direction: row;

@@ -22,7 +22,7 @@ function RepoItem({ repo }) {
           </a>
         </h3>
         <p className="mb-2">{description}</p>
-        <div className="flex">
+        <div className="grid grid-cols-1 sm:flex gap-2 sm:gap-0 ">
           <div>
             <div className="mr-3 badge badge-info badge-lg">
               <FaEye className="mr-3" />
